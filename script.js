@@ -147,7 +147,7 @@ function drawText() {
   if (frameNumber > 2400 && frameNumber < 2700) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "I don’t need infinity—just you, here, now.",
+      "I don’t need infinity—just you, here and now.",
       canvas.width / 2,
       canvas.height / 2
     );
